@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int a[5],i,sum=0;
+    cout<<"numeros del arreglo a"<<endl;
+    for(i=0;i<5;i++){
+        cin>>a[i];
+    
+    }
+    for (i=0;i<5;i++){
+        sum+=a[i];
+    }
+    cout<<"la suma del arreglo es "<<sum<<endl;
+    return 0;
+}
